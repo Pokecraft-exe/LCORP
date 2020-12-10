@@ -28,11 +28,9 @@
 		}
 	</style>
 
-	<title>VPN</title>
-
-	<input id="inweb" value="https://google.fr">
+	<p><input id="inweb" value="https://google.fr">
    
-	<p><button id="go">Aller</button></p><p>Resultat:</p>
+	<button id="go">Aller</button></p><p>Resultat:</p>
 
 	<iframe id="inlineFrameExample"
 	    title="Inline Frame Example"
