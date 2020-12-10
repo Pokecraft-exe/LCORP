@@ -28,7 +28,7 @@
 		}
 	</style>
 
-	<p><input id="inweb" value="https://google.fr">
+	<p><input id="inweb" value="https://www.google.fr/">
    
 	<button id="go" onclick="goWeb()">Aller</button></p><p>Resultat:</p>
 
@@ -36,7 +36,7 @@
 	    width="300"
 	    height="200"
 	    allow="fullscreen"
-	    src="https://fr.wikipedia.org/wiki/Robert_Louis_Stevenson">
+	    src="https://www.google.fr/">
 	</iframe>
 	<script>
 		var iframe = document.querySelector('#outweb');
