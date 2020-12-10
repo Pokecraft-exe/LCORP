@@ -28,7 +28,7 @@
 		}
 	</style>
 
-	<p><input id="inweb" value="https://www.google.fr/">
+	<p><input id="inweb" value="https://google.fr">
    
 	<button id="go" onclick="goWeb()">Aller</button></p><p>Resultat:</p>
 
@@ -36,14 +36,18 @@
 	    width="300"
 	    height="200"
 	    allow="fullscreen"
-	    src="https://www.google.fr/">
+	    src="https://fr.wikipedia.org/wiki/Robert_Louis_Stevenson">
 	</iframe>
 	<script>
 		var iframe = document.querySelector('#outweb');
 		var input = document.querySelector('#inweb');
 		var button = document.querySelector('#go');
+		var mottor = "https://cse.google.com/cse?cx=017551491501672106574:umy6gdaj45i#gsc.tab=0";
+		var q = "&gsc.q=";
+		var afterq = "&gsc.sort=";
+		iframe.src = input.value;
 		function goWeb(){
-			iframe.src = input.value;
+			iframe.src = mottor + q + input.value + afterq;
 		}
 	</script>
 </body>
