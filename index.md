@@ -6,7 +6,7 @@
 		    border: 1px solid black;
 		    width: 100%;
 		    height: 500px;
-		    box-shadow: 10px 0px 15px Black;
+		    box-shadow: 0px 5px 15px Black;
 		}
 
 		input {
