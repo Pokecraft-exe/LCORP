@@ -30,7 +30,7 @@
 
 	<input id="inweb" value="https://google.fr">
    
-	<button id="go">Aller</button></br>Resultat:</br>
+	<p><button id="go">Aller</button></p><p>Resultat:</p>
 
 	<iframe id="inlineFrameExample"
 	    title="Inline Frame Example"
