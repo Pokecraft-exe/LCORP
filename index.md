@@ -14,7 +14,7 @@
 		    color: Black;
 		    background-color: White;
 		    border: 1px solid Black;
-		    box-shadow: 10px 5px 5px Black;
+		    box-shadow: 0px 5px 15px Black;
 		    border-radius: 15px;
 		    margin-left: 15px;
 		}
@@ -23,7 +23,7 @@
 		    color: red;
 		    background-color: black;
 		    border: 1px solid Black;
-		    box-shadow: 10px 5px 5px Black;
+		    box-shadow: 0px 5px 15px Black;
 		    border-radius: 15px;
 		}
 	</style>
